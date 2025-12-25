@@ -271,7 +271,13 @@ body {
 }
 
 .logo {
-  height: 80px;
+  height: 50px;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    height: 80px;
+  }
 }
 
 .nav-link {
@@ -406,7 +412,6 @@ body {
 }
 
 .section-title {
-  font-size: 3.5rem;
   font-weight: 700;
   color: #2d1b0e;
   margin-bottom: 60px;
@@ -542,12 +547,24 @@ body {
 }
 
 .services-page-title {
-  font-size: 5rem;
+  font-size: 2.8rem;
   font-weight: 700;
   color: #2d1b0e;
   position: relative;
   display: inline-block;
   padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .services-page-title {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .services-page-title {
+    font-size: 5rem;
+  }
 }
 
 .services-page-title::after {
@@ -579,13 +596,19 @@ body {
 }
 
 .service-name {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #2d1b0e;
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
   margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .service-name {
+    font-size: 2.5rem;
+  }
 }
 
 .service-name::after {
