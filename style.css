@@ -36,10 +36,6 @@ body {
     font-size: 1.5rem !important;
   }
 
-  .about-text p {
-    font-size: 0.8rem !important;
-  }
-
   .contact-text {
     font-size: 1.8rem !important;
     width: 90% !important;
@@ -110,10 +106,6 @@ body {
 
   .section-title {
     font-size: 3.5rem !important;
-  }
-
-  .about-text p {
-    font-size: 1.2rem !important;
   }
 
   .client-logos-section {
@@ -260,7 +252,7 @@ img,
 
 /* General Body Styles */
 body {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy", sans-serif;
   background-color: #ffffff;
   color: #000000;
 }
@@ -355,10 +347,6 @@ body {
 }
 
 /* About Section */
-.about-section {
-  padding: 80px 0;
-}
-
 .image-container {
   padding: 15px;
 }
@@ -368,7 +356,6 @@ body {
 }
 
 .about-text h2 {
-  font-weight: 700;
   color: #2d1b0e;
   font-size: 3rem;
   margin-bottom: 15px;
@@ -388,7 +375,6 @@ body {
 .about-text p {
   color: #2d1b0e;
   line-height: 1.8;
-  font-weight: 600;
 }
 
 .btn-read-more {
@@ -407,10 +393,6 @@ body {
 }
 
 /* Services Section */
-.services-section {
-  padding: 80px 0;
-}
-
 .section-title {
   font-weight: 700;
   color: #2d1b0e;
@@ -465,7 +447,7 @@ body {
 .footer-section {
   background-color: #000000;
   color: #fff;
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Gilroy", sans-serif;
   padding: 60px 0 0 0;
 }
 
@@ -537,11 +519,6 @@ body {
 }
 
 /* Services Page Styles */
-
-.services-page-content {
-  padding: 80px 0;
-}
-
 .services-title-container {
   margin-bottom: 100px;
 }
@@ -586,10 +563,6 @@ body {
   color: #333;
 }
 
-/* Individual Service Entry Styles */
-.service-entry {
-  margin-bottom: 120px; /* Increased space between service sections */
-}
 
 .service-description {
   padding: 0 30px;
